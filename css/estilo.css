@@ -1,0 +1,127 @@
+/* Estrutura */
+body {
+    background: url(../imagens/capa.png), 
+                url(../imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+/* Menu */
+.traco {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+    line-height: 10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+    color: #51B7D8;
+}
+.navbar-toggler {
+    color: white;
+}
+.menu {
+    background: rgba(0, 0, 0, 0.493);
+}
+
+/* Capa */
+#carrosel .btn-outline-light, #carrosel .btn-primary {
+    border-radius: 20px;
+}
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+@media (max-width: 575.98px) {
+	.btn-custom {
+		margin: 10px 15px;
+		font-size: 1em;
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 3em;
+	}
+	.btn-custom {
+		margin: 10px 15px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+}
+
+/* Conteudo */
+#conteudo {
+    background: white;
+}
+#conteudo h2, #conteudo h3 {
+    color: #7C25F8;
+}
+#facil h2 {
+    color: white;
+}
+#facil h3 {
+    color: #51B7D8;
+}
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 70px;
+    
+}
+
+/* Rodapé */
+footer {
+    background: black;
+    position: relative;
+}
+.img-rodape {
+    width: 162px;
+    margin-bottom: 20px;
+}
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+footer a {
+    color: white;
+    font-size: 0.8em;
+}
+footer a:hover {
+    color: #51B7D8;
+}
+footer .nav-link {
+    margin: 2px;
+    padding: 0;
+}
